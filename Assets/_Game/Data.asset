@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9630a7340f60c8f4c8e4deb97d786d91, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  data:
+  - ID: 0
+    HP: 15
+    Point: 30
+    Scale: 1
+    Icon: {fileID: 21300000, guid: 0f357a354acaa9c449d50ca246e8e636, type: 3}
+    FX: {fileID: 21300000, guid: e28d9a8a4cc56f44ea095e8ff31fea8c, type: 3}
+    IsBoss: 1
+  - ID: 1
+    HP: 1
+    Point: 1
+    Scale: 0.27522
+    Icon: {fileID: 21300000, guid: b3221a572ee2c084cbd6cf9736c06c54, type: 3}
+    FX: {fileID: 21300000, guid: fac22ce769671694384c2a82694399ef, type: 3}
+    IsBoss: 0
+  - ID: 2
+    HP: 1
+    Point: 1
+    Scale: 0.27522
+    Icon: {fileID: 21300000, guid: 7d555a08e5c9c814384f78d651f9f4f6, type: 3}
+    FX: {fileID: 21300000, guid: 64f2bf153f4251f40a5c717a6c96612b, type: 3}
+    IsBoss: 0
+  - ID: 3
+    HP: 1
+    Point: 1
+    Scale: 0.27522
+    Icon: {fileID: 21300000, guid: 8787c0fc11de1114d8fd9c15a3073e87, type: 3}
+    FX: {fileID: 21300000, guid: 76fb6ce62a91da24ca61390a2991c0e7, type: 3}
+    IsBoss: 0
+  - ID: 4
+    HP: 2
+    Point: 3
+    Scale: 0.4
+    Icon: {fileID: 21300000, guid: c7ad1aeeae787aa4ba6e97d14275333b, type: 3}
+    FX: {fileID: 21300000, guid: f122d7480860ba34982b62affe11cb41, type: 3}
+    IsBoss: 0
+  - ID: 5
+    HP: 2
+    Point: 3
+    Scale: 0.4
+    Icon: {fileID: 21300000, guid: 6f9258301e327a94c906d8405f89260a, type: 3}
+    FX: {fileID: 21300000, guid: 9c9c986ccd2800a4aa2835149b7ee992, type: 3}
+    IsBoss: 0
+  - ID: 6
+    HP: 2
+    Point: 3
+    Scale: 0.4
+    Icon: {fileID: 21300000, guid: a735d20a8f2b2f543af716d47b5d6b55, type: 3}
+    FX: {fileID: 21300000, guid: e49f85f4fb0b5154e81fdc428e9b0e03, type: 3}
+    IsBoss: 0
+  - ID: 7
+    HP: 3
+    Point: 5
+    Scale: 0.55
+    Icon: {fileID: 21300000, guid: 597173a634e63db42958851d2fd95abe, type: 3}
+    FX: {fileID: 21300000, guid: 04da263f4ad35cb4e9b77d0e812f7aaa, type: 3}
+    IsBoss: 0
+  - ID: 8
+    HP: 3
+    Point: 5
+    Scale: 0.55
+    Icon: {fileID: 21300000, guid: a735d20a8f2b2f543af716d47b5d6b55, type: 3}
+    FX: {fileID: 21300000, guid: e49f85f4fb0b5154e81fdc428e9b0e03, type: 3}
+    IsBoss: 0
