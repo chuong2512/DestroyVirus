@@ -33,7 +33,7 @@ namespace ChuongCustom
         {
             if (removeCache || data == null) data = new List<IAPData>();
             var fields =
-                typeof(IAPKey).GetFields(BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
+                typeof(IA).GetFields(BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
             foreach (var field in fields)
             {
                 var productKey = field.GetValue(null).ToString();

@@ -58,7 +58,7 @@ namespace ChuongCustom
         }
 
         private static Dictionary<string, string> MakeCatalog(Func<string, string, string> key, Func<string, string, string> value) {
-            var type = typeof(IAPKey);
+            var type = typeof(IA);
             var fields = type.GetFields(BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
 
             var dictionary = new Dictionary<string, string>
